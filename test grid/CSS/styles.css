@@ -1,0 +1,91 @@
+body {
+    margin: 40px;
+    background-color: darkgray;
+  
+  }
+
+
+.grid-container{
+    
+ display: grid;
+ grid-gap: 10px;
+ grid-template-columns: 535px 535px 535px;
+ height: 750px;
+  color: #444;
+  
+  
+      
+}
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    
+  }
+   .a{
+    grid-column: 1/span 2;
+    
+  }
+  .b {
+    grid-column: 3 ;
+    grid-row: 1 ;
+  }
+  .c {
+    grid-column: 1 ;
+    grid-row: 2 ;
+  }
+  .d {
+    grid-column: 2 /span 2 ;
+    grid-row: 2;
+    
+  }
+  .grid-container {
+    -webkit-transition: -webkit-transform 0.1s;
+    -moz-transition: -moz-transform 0.1s;
+    -ms-transition:  -ms-transform 0.1s;
+    transition:  transform 0.1s;
+    width: 100%;
+    height: 100%;}
+    .d:hover {
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: -webkit-transform 0.25s;
+      -moz-transition: -moz-transform 0.25s;
+      -ms-transition:  -ms-transform 0.25s;
+      transition:  transform 0.25s;
+      cursor: pointer;
+    }.a:hover {
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: -webkit-transform 0.25s;
+      -moz-transition: -moz-transform 0.25s;
+      -ms-transition:  -ms-transform 0.25s;
+      transition:  transform 0.25s;
+      cursor: pointer;
+    }.b:hover {
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: -webkit-transform 0.25s;
+      -moz-transition: -moz-transform 0.25s;
+      -ms-transition:  -ms-transform 0.25s;
+      transition:  transform 0.25s;
+      cursor: pointer;
+    }.c:hover {
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: -webkit-transform 0.25s;
+      -moz-transition: -moz-transform 0.25s;
+      -ms-transition:  -ms-transform 0.25s;
+      transition:  transform 0.25s;
+      cursor: pointer;
+    }
